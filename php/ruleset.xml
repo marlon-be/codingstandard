@@ -88,7 +88,6 @@
 	<rule ref="Squiz.Arrays.ArrayBracketSpacing" />
 	<rule ref="Squiz.Arrays.ArrayDeclaration" />
 	
-	<rule ref="Squiz.Classes.ClassFilename" />
 	<rule ref="Squiz.Classes.DuplicateProperty" />
 	<rule ref="Squiz.Classes.LowercaseClassKeywords" />
 	<rule ref="Squiz.Classes.SelfMemberReference" />
