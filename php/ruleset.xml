@@ -141,7 +141,6 @@
 	<rule ref="Squiz.Functions.LowercaseFunctionKeywords" />
 	<rule ref="Squiz.Functions.MultiLineFunctionDeclaration" />
 
-	<rule ref="Squiz.NamingConventions.ConstantCase" />
 	<rule ref="Squiz.NamingConventions.ValidFunctionName" />
 	<rule ref="Squiz.NamingConventions.ValidVariableName" />
 
@@ -149,7 +148,6 @@
 	<rule ref="Squiz.Objects.ObjectInstantiation" />
 	<rule ref="Squiz.Objects.ObjectMemberComma" />
 
-	<rule ref="Squiz.Operators.ComparisonOperatorUsage" />
 	<rule ref="Squiz.Operators.IncrementDecrementUsage" />
 	<rule ref="Squiz.Operators.ValidLogicalOperators" />
 
@@ -178,7 +176,6 @@
 
 	<rule ref="Squiz.WhiteSpace.CastSpacing" />
 	<rule ref="Squiz.WhiteSpace.ControlStructureSpacing" />
-	<rule ref="Squiz.WhiteSpace.FunctionClosingBraceSpace" />
 	<rule ref="Squiz.WhiteSpace.FunctionOpeningBraceSpace" />
 	<rule ref="Squiz.WhiteSpace.FunctionSpacing" />
 	<rule ref="Squiz.WhiteSpace.LanguageConstructSpacing" />
