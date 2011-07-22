@@ -17,9 +17,9 @@
 	<rule ref="Generic.ControlStructures.InlineControlStructure" />
 	
 	<rule ref="Generic.Files.LineLength">
-		<!-- Lines can be 80 chars long, show errors at 120 chars -->
+		<!-- Lines can be 90 chars long, show errors at 120 chars -->
 		<properties>
-			<property name="lineLimit" value="80" />
+			<property name="lineLimit" value="90" />
 			<property name="absoluteLineLimit" value="120" />
 		</properties>
 	</rule>
@@ -31,14 +31,6 @@
 	</rule>
 	
 	<rule ref="Generic.Formatting.DisallowMultipleStatements" />
-	<rule ref="Generic.Formatting.MultipleStatementAlignment">
-		<!-- Have 8 chars padding maximum and always show as errors -->
-		<properties>
-			<property name="maxPadding" value="8" />
-			<property name="ignoreMultiLine" value="true" />
-			<property name="error" value="true" />
-		</properties>
-	</rule>
 	<rule ref="Generic.Formatting.SpaceAfterCast" />
 	
 	<rule ref="Generic.Functions.FunctionCallArgumentSpacing" />
@@ -94,11 +86,9 @@
 	<rule ref="Squiz.ControlStructures.ForLoopDeclaration" />	
 	<rule ref="Squiz.ControlStructures.SwitchDeclaration" />
 	<rule ref="Squiz.ControlStructures.ElseIfDeclaration" />	
-	<rule ref="Squiz.ControlStructures.InlineIfDeclaration" />
 	<rule ref="Squiz.ControlStructures.ForEachLoopDeclaration" />	
 	<rule ref="Squiz.ControlStructures.LowercaseDeclaration" />
 
-	<rule ref="Squiz.Functions.FunctionDeclarationArgumentSpacing" />
 	<rule ref="Squiz.Functions.FunctionDeclaration" />
 	<rule ref="Squiz.Functions.FunctionDuplicateArgument" />
 	<rule ref="Squiz.Functions.GlobalFunction" />
@@ -135,7 +125,6 @@
 	<rule ref="Squiz.WhiteSpace.FunctionOpeningBraceSpace" />
 	<rule ref="Squiz.WhiteSpace.LanguageConstructSpacing" />
 	<rule ref="Squiz.WhiteSpace.LogicalOperatorSpacing" />
-	<rule ref="Squiz.WhiteSpace.MemberVarSpacing" />
 	<rule ref="Squiz.WhiteSpace.ObjectOperatorSpacing" />
 	<rule ref="Squiz.WhiteSpace.OperatorSpacing" />
 	<rule ref="Squiz.WhiteSpace.PropertyLabelSpacing" />
