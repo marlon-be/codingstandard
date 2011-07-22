@@ -62,7 +62,6 @@
 	
 	<rule ref="Generic.PHP.DeprecatedFunctions" />
 	<rule ref="Generic.PHP.DisallowShortOpenTag" />
-	<rule ref="Generic.PHP.ForbiddenFunctions" />
 	<rule ref="Generic.PHP.LowerCaseConstant" />
 	<rule ref="Generic.PHP.NoSilencedErrors" />
 	
@@ -92,17 +91,12 @@
 	
 	<rule ref="Squiz.CodeAnalysis.EmptyStatement" />
 
-	<rule ref="Squiz.ControlStructures.ControlSignature" />	
 	<rule ref="Squiz.ControlStructures.ForLoopDeclaration" />	
 	<rule ref="Squiz.ControlStructures.SwitchDeclaration" />
 	<rule ref="Squiz.ControlStructures.ElseIfDeclaration" />	
 	<rule ref="Squiz.ControlStructures.InlineIfDeclaration" />
 	<rule ref="Squiz.ControlStructures.ForEachLoopDeclaration" />	
 	<rule ref="Squiz.ControlStructures.LowercaseDeclaration" />
-
-	<rule ref="Squiz.Files.FileExtension" />
-
-	<rule ref="Squiz.Formatting.OperatorBracket" />
 
 	<rule ref="Squiz.Functions.FunctionDeclarationArgumentSpacing" />
 	<rule ref="Squiz.Functions.FunctionDeclaration" />
@@ -111,9 +105,6 @@
 	<rule ref="Squiz.Functions.LowercaseFunctionKeywords" />
 	<rule ref="Squiz.Functions.MultiLineFunctionDeclaration" />
 
-	<rule ref="Squiz.NamingConventions.ValidFunctionName" />
-	<rule ref="Squiz.NamingConventions.ValidVariableName" />
-
 	<rule ref="Squiz.Objects.DisallowObjectStringIndex" />
 	<rule ref="Squiz.Objects.ObjectInstantiation" />
 	<rule ref="Squiz.Objects.ObjectMemberComma" />
@@ -121,9 +112,7 @@
 	<rule ref="Squiz.Operators.IncrementDecrementUsage" />
 	<rule ref="Squiz.Operators.ValidLogicalOperators" />
 
-	<rule ref="Squiz.PHP.CommentedOutCode" />
 	<rule ref="Squiz.PHP.DisallowComparisonAssignment" />
-	<rule ref="Squiz.PHP.DisallowInlineIf" />
 	<rule ref="Squiz.PHP.DisallowMultipleAssignments" />
 	<rule ref="Squiz.PHP.DisallowSizeFunctionsInLoops" />
 	<rule ref="Squiz.PHP.DiscouragedFunctions" />
@@ -140,12 +129,9 @@
 	<rule ref="Squiz.Scope.MethodScope" />
 	<rule ref="Squiz.Scope.StaticThisUsage" />
 
-	<rule ref="Squiz.Strings.ConcatenationSpacing" />
-	<rule ref="Squiz.Strings.DoubleQuoteUsage" />
 	<rule ref="Squiz.Strings.EchoedStrings" />
 
 	<rule ref="Squiz.WhiteSpace.CastSpacing" />
-	<rule ref="Squiz.WhiteSpace.ControlStructureSpacing" />
 	<rule ref="Squiz.WhiteSpace.FunctionOpeningBraceSpace" />
 	<rule ref="Squiz.WhiteSpace.LanguageConstructSpacing" />
 	<rule ref="Squiz.WhiteSpace.LogicalOperatorSpacing" />
