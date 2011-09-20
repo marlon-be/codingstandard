@@ -17,9 +17,8 @@
 	<rule ref="Generic.ControlStructures.InlineControlStructure" />
 	
 	<rule ref="Generic.Files.LineLength">
-		<!-- Lines can be 90 chars long, show errors at 120 chars -->
 		<properties>
-			<property name="lineLimit" value="90" />
+			<property name="lineLimit" value="120" />
 			<property name="absoluteLineLimit" value="120" />
 		</properties>
 	</rule>
