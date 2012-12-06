@@ -2,9 +2,5 @@
 <ruleset name="Marlon">
 	<description>Marlon PHP Coding Standard based on PSR2</description>
 
-    <rule ref="PSR2">
-        <exclude name="Squiz.ControlStructures.ControlSignature" />
-        <exclude name="PSR2.Classes.ClassDeclaration.OpenBraceNotAlone" />
-        <exclude name="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine" />
-    </rule>
+    <rule ref="PSR2" />
 </ruleset>
